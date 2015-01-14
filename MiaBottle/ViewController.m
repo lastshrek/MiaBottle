@@ -120,7 +120,7 @@
     // Set the action button
     localNotif.alertAction = @"View";
     
-    localNotif.soundName = UILocalNotificationDefaultSoundName;
+    localNotif.soundName = @"Night Owl.m4r";
     localNotif.applicationIconBadgeNumber = 1;
     
     // Specify custom data for the notification

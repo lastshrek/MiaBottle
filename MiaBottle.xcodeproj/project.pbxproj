@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C89CAC21A66CC130018249A /* Night Owl.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 3C89CAC11A66CC130018249A /* Night Owl.m4r */; };
 		3CBA00C01A665476000E09CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA00BF1A665476000E09CA /* main.m */; };
 		3CBA00C31A665476000E09CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA00C21A665476000E09CA /* AppDelegate.m */; };
 		3CBA00C61A665476000E09CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA00C51A665476000E09CA /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C89CAC11A66CC130018249A /* Night Owl.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Night Owl.m4r"; sourceTree = "<group>"; };
 		3CBA00BA1A665476000E09CA /* MiaBottle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiaBottle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CBA00BE1A665476000E09CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CBA00BF1A665476000E09CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 		3CBA00BD1A665476000E09CA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C89CAC11A66CC130018249A /* Night Owl.m4r */,
 				3CBA00BE1A665476000E09CA /* Info.plist */,
 				3CBA00BF1A665476000E09CA /* main.m */,
 			);
@@ -202,6 +205,7 @@
 			files = (
 				3CBA00C91A665476000E09CA /* Main.storyboard in Resources */,
 				3CBA00CE1A665476000E09CA /* LaunchScreen.xib in Resources */,
+				3C89CAC21A66CC130018249A /* Night Owl.m4r in Resources */,
 				3CBA00CB1A665476000E09CA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,8 +348,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: PengCheng Zhao (7LKFCH3GR5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PengCheng Zhao (7LKFCH3GR5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MiaBottle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -358,8 +362,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: PengCheng Zhao (7LKFCH3GR5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: PengCheng Zhao (7LKFCH3GR5)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MiaBottle/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
